@@ -5,6 +5,13 @@
 	padding: 0%;
 	box-sizing: border-box;
 	 /* font-size: 40px; */
+	 @media screen and (max-width: 900px) {
+		.container img {
+			min-width: 300px;
+			min-height: 300px;
+			
+		}
+	}
 }
 .calculator {
     padding: 10px;
