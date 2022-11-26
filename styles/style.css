@@ -7,8 +7,14 @@
 	
 }
 body{
-	
-background-color: darkslategray;
+	height: 100vh;
+	background-image: linear-gradient(#65647C,#8B7E74,#C7BCA1,#F1D3B3);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-color: darkslategray; */
+}
+#btnHov:hover{
+	background-color: cyan;
 }
 .calculator {
     padding: 10px;
